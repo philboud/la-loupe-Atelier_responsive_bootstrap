@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -14,14 +13,69 @@
             margin: auto;
         }
     </style>
-    <title>Kundu</title>
-    <div class="page-header">
-        <h1>Kundu<small>Les chaussettes ne se cachent plus</small></h1>
-    </div>
-    <div class="genre">
-    <p>HOMME - FEMME - ENFANT</p>
-    </div>
+    <title>Voiture de rêve 2017</title>
 </head>
+<header>
+    <div id="topheader">
+        <div class="container1">
+            <div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/csm_bmw-z4-cabrio-2d-grau-offen-2014_6394c0dba3.png" alt="Cabriolet BMW Z4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page-header">
+            <h1>Voitures de rêve</h1>
+        </div>
+    </div>
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">Marques</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Anglaise</a></li>
+                    <li><a href="#">Italienne</a></li>
+                    <li><a href="#">Allemande</a></li>
+                    <li><a href="#">Américaine</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Moteur 200ch et +</a></li>
+                            <li><a href="#">Moteur 400ch et +</a></li>
+                            <li><a href="#">Moteur 600ch et +</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Location</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Achat véhicules</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Go</button>
+                </form>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</header>
 
 <body>
     <!--carousel-->
@@ -37,22 +91,18 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="img/ch1.jpeg" alt="Chania">
+                <img src="img/RangeEvoque.png" alt="Range_Evoque">
             </div>
-
             <div class="item">
-                <img src="img/ch1.jpeg" alt="Chania">
+                <img src="img/csm_jaguar-f-type-cabrio.png" alt="Jaguar type F">
             </div>
-
             <div class="item">
-                <img src="img/ch2.jpeg" alt="Flower">
+                <img src="img/csm_bmw-z4-cabrio-2d-grau-offen-2014_6394c0dba3.png" alt="BMW Z4">
             </div>
-
             <div class="item">
-                <img src="img/ch3.jpg" alt="Flower">
+                <img src="img/lamborghini-aventador.png" alt="Lamborghini Aventador">
             </div>
         </div>
-
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -68,13 +118,13 @@
         <div class="row">
             <div class="col-sm-3 col-md-3">
                 <div class="thumbnail">
-                    <img src="img/ch1.jpeg" alt="...">
+                    <img src="img/csm_bmw-z4-cabrio-2d-grau-offen-2014_6394c0dba3.png" alt="Cabriolet BMW Z4">
                     <div class="caption">
-                        <h3>Chaussettes1</h3>
+                        <h3>BMW Z4</h3>
                         <p></p>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
-  Voir l'article
+Details
 </button>
 
                         <!-- Modal -->
@@ -83,10 +133,11 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Chaussette1</h4>
+                                        <h4 class="modal-title" id="myModalLabel">BMW Z4</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="img/ch1.jpeg" alt="...">
+                                        <img src="img/csm_bmw-z4-cabrio-2d-grau-offen-2014_6394c0dba3.png" alt="Cabriolet BMW Z4">
+                                        <p>340 ch de 0 à 100 km/h effectué en 4,8 s. </p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Ferme</button>
@@ -100,15 +151,13 @@
             </div>
             <div class="col-sm-3 col-md-3">
                 <div class="thumbnail">
-                    <img src="img/ch2.jpeg" alt="...">
+                    <img src="img/csm_jaguar-f-type-cabrio.png" alt="Jaguar type F">
                     <div class="caption">
-                        <h3>Chaussettes2</h3>
+                        <h3>Jaguar type F</h3>
                         <p></p>
-
-
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
-Voir l'article
+Details
 </button>
 
                         <!-- Modal -->
@@ -117,10 +166,12 @@ Voir l'article
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Chaussette2</h4>
+                                        <h4 class="modal-title" id="myModalLabel">Jaguar type F</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="img/ch2.jpeg" alt="...">
+                                        <img src="img/csm_jaguar-f-type-cabrio.png" alt="Jaguar type F">
+                                        <p>PUISSANCE MAXIMALE 400CH<br>ACCÉLÉRATION EN 4,9secondes de 0 à 100 km/h<br>VITESSE MAXIMALE 275km/h
+                                        </p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Ferme</button>
@@ -134,26 +185,24 @@ Voir l'article
             </div>
             <div class="col-sm-3 col-md-3">
                 <div class="thumbnail">
-                    <img src="img/ch3.jpeg" alt="...">
+                    <img src="img/RangeEvoque.png" alt="Range Rover Evoque">
                     <div class="caption">
-                        <h3>Chaussettes3</h3>
+                        <h3>Range Rover Evoque</h3>
                         <p></p>
-
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">
-  Voir l'article
+Details
 </button>
-
                         <!-- Modal -->
                         <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                        <h4 class="modal-title" id="myModalLabel">Range Rover Evoque</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="img/ch3.jpeg" alt="...">
+                                        <img src="img/RangeEvoque.png" alt="Range Rover Evoque">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Ferme</button>
@@ -167,15 +216,13 @@ Voir l'article
             </div>
             <div class="col-sm-3 col-md-3">
                 <div class="thumbnail">
-                    <img src="img/ch4.jpeg" alt="...">
+                    <img src="img/lamborghini-aventador.png" alt="Lanborghini aventador">
                     <div class="caption">
-                        <h3>Chaussettes4</h3>
+                        <h3>Lanborghini Aventador</h3>
                         <p></p>
-
-
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal4">
-Voir l'article
+Detail
 </button>
 
                         <!-- Modal -->
@@ -184,10 +231,10 @@ Voir l'article
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                        <h4 class="modal-title" id="myModalLabel">Lanborghini Aventador</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="img/ch4.jpeg" alt="...">
+                                        <img src="img/lamborghini-aventador.png" alt="Lanborghini aventador">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Ferme</button>
@@ -203,14 +250,14 @@ Voir l'article
         <div class="row">
             <div class="col-sm-3 col-md-3">
                 <div class="thumbnail">
-                    <img src="img/ch5.jpeg" alt="...">
+                    <img src="img/aston-martin DBS.png" alt="Aston Martin DBS">
                     <div class="caption">
-                        <h3>Chaussettes5</h3>
+                        <h3>Aston Martin DBS</h3>
                         <p></p>
 
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal5">
-  Voir l'article
+Details
 </button>
 
                         <!-- Modal -->
@@ -219,10 +266,10 @@ Voir l'article
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                        <h4 class="modal-title" id="myModalLabel">Aston Martin DBS</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="img/ch5.jpeg" alt="...">
+                                        <img src="img/aston-martin DBS.png" alt="Aston Martin DBS">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Ferme</button>
@@ -236,14 +283,14 @@ Voir l'article
             </div>
             <div class="col-sm-3 col-md-3">
                 <div class="thumbnail">
-                    <img src="img/ch6.jpeg" alt="...">
+                    <img src="img/maserati-grancabrio.png" alt="Maserati grancabrio">
                     <div class="caption">
-                        <h3>Chaussettes6</h3>
+                        <h3>Maserati grancabrio</h3>
                         <p></p>
 
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal6">
-Voir l'article
+Details
 </button>
 
                         <!-- Modal -->
@@ -252,10 +299,10 @@ Voir l'article
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                        <h4 class="modal-title" id="myModalLabel">Maserati grancabrio</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="img/ch6.jpeg" alt="...">
+                                        <img src="img/maserati-grancabrio.png" alt="Maserati grancabrio">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Ferme</button>
@@ -269,7 +316,7 @@ Voir l'article
             </div>
             <div class="col-sm-3 col-md-3">
                 <div class="thumbnail">
-                    <img src="img/ch7.jpeg" alt="...">
+                    <img src="img/Mustang 2015.png" alt="Mustang 2015">
                     <div class="caption">
                         <h3>Chaussettes7</h3>
                         <p></p>
@@ -278,7 +325,7 @@ Voir l'article
 
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal7">
-  Voir l'article
+Details
 </button>
 
                         <!-- Modal -->
@@ -287,10 +334,10 @@ Voir l'article
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                        <h4 class="modal-title" id="myModalLabel">Mustang 2015</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="img/ch7.jpeg" alt="...">
+                                        <img src="img/Mustang 2015.png" alt="Mustang 2015">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Ferme</button>
@@ -304,15 +351,15 @@ Voir l'article
             </div>
             <div class="col-sm-3 col-md-3">
                 <div class="thumbnail">
-                    <img src="img/ch8.jpeg" alt="...">
+                    <img src="img/Huracane.png" alt="Lamborghini Huracane">
                     <div class="caption">
-                        <h3>Chaussettes8</h3>
+                        <h3>Lamborghini Huracane</h3>
                         <p></p>
 
 
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal8">
-  Voir l'article
+Details
 </button>
 
                         <!-- Modal -->
@@ -321,10 +368,10 @@ Voir l'article
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                        <h4 class="modal-title" id="myModalLabel">Lamborghini Huracane</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="img/ch8.jpeg" alt="...">
+                                        <img src="img/Huracane.png" alt="Lamborghini Huracane">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Ferme</button>
@@ -345,31 +392,27 @@ Voir l'article
 </body>
 <footer>
 
-  		<footer class="footer-distributed">
+    <footer class="footer-distributed">
 
-  			<div class="footer-right">
+        <div class="footer-right">
 
-  				<a href="#"><i class="fa fa-facebook"></i></a>
-  				<a href="#"><i class="fa fa-twitter"></i></a>
-  			</div>
-  			<div class="footer-left">
-  				<p class="footer-links">
-  					<a href="#">Home</a>
-  					·
-  					<a href="#">Blog</a>
-  					·
-  					<a href="#">Pricing</a>
-  					·
-  					<a href="#">About</a>
-  					·
-  					<a href="#">Faq</a>
-  					·
-  					<a href="#">Contact</a>
-  				</p>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="footer-left">
+            <p class="footer-links">
+                <a href="#">Home</a> ·
+                <a href="#">Blog</a> ·
+                <a href="#">Pricing</a> ·
+                <a href="#">About</a> ·
+                <a href="#">Faq</a> ·
+                <a href="#">Contact</a>
+            </p>
 
-  				<p>Kundu 2017</p>
-  			</div>
+            <p>Voiture de rêve 2017</p>
+        </div>
 
-  		</footer>
+    </footer>
 </footer>
+
 </html>
